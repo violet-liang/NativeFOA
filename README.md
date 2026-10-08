@@ -1,7 +1,6 @@
 # NativeFOA: Representation, Editing, and Benchmark for Spatial Audio
 
 [![Project Page](https://img.shields.io/badge/Project-Page-13283a?style=for-the-badge&logo=githubpages&logoColor=white)](https://nativefoa.github.io/)
-[![Audio Demos](https://img.shields.io/badge/Audio-Demos-c94246?style=for-the-badge&logo=soundcloud&logoColor=white)](https://nativefoa.github.io/)
 
 ## Overview
 
