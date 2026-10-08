@@ -1,44 +1,10 @@
 # NativeFOA: Representation, Editing, and Benchmark for Spatial Audio
 
-> **Release status:** The official implementation is being prepared for public release. Source code is not included in this initial repository snapshot.
-
-[Project page and audio demos](https://nativefoa.github.io/)
+[![Project Page](https://img.shields.io/badge/Project-Page-13283a?style=for-the-badge&logo=githubpages&logoColor=white)](https://nativefoa.github.io/)
+[![Audio Demos](https://img.shields.io/badge/Audio-Demos-c94246?style=for-the-badge&logo=soundcloud&logoColor=white)](https://nativefoa.github.io/)
 
 ## Overview
 
-NativeFOA is a unified framework for spatial audio representation, instruction-guided editing, and evaluation directly in the First-Order Ambisonics (FOA) domain.
+Spatial audio editing for immersive media requires jointly controlling semantic content and sound-field geometry while preserving the surrounding acoustic scene. To address these challenges, we introduce **NativeFOA**, a unified framework operating directly in the First-Order Ambisonics (FOA) domain.
 
-The project contains three components:
-
-- **NativeFOA-VAE** learns a spatially consistent latent representation of four-channel FOA audio.
-- **NativeFOA-Editor** supports source movement, source removal, and source replacement while preserving non-target sound-field content.
-- **NativeFOA-Bench** evaluates editing accuracy, spatial consistency, audio fidelity, and non-target preservation.
-
-## Release status
-
-| Resource | Status |
-| --- | --- |
-| Interactive demos | [Available](https://nativefoa.github.io/) |
-| Paper | Coming soon |
-| Source code | Coming soon |
-| Training and inference instructions | Coming soon |
-| Dataset and benchmark | Coming soon |
-| Model checkpoints | To be announced |
-
-## Demos
-
-The project page currently includes:
-
-- spatial reconstruction comparisons for NativeFOA-VAE;
-- binauralized demonstrations for source movement, removal, and replacement; and
-- comparisons with audio-editing baselines.
-
-Headphones are recommended for listening to the binauralized editing examples.
-
-## Citation
-
-A BibTeX entry will be added when the paper is publicly available.
-
-## License
-
-License information will be provided together with the source-code release.
+For representation, **NativeFOA-VAE** introduces a novel spatial reconstruction objective that improves acoustic fidelity and spatial consistency. Building on this latent representation, **NativeFOA-Editor** leverages conditional flow matching to perform source trajectory modification, source removal, and source replacement while keeping the non-target sound field intact. To evaluate spatial editing systematically, we establish **NativeFOA-Bench** to jointly assess target spatial accuracy, audio fidelity, and non-target preservation.
